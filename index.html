@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./estilos/styles.css" />
+    <title>Encriptador de texto</title>
+  </head>
+  <body>
+    <div class="cajaCabecera">
+      <img src="./img/Logo.png" alt="Alura" id="logo" />
+    </div>
+    <div class="cajaInput">
+      <input
+        type="text"
+        name="texto"
+        id="miInput"
+        placeholder="ingrese el texto aqui"
+      />
+      <p><img src="./img/Vector.png"> Solo letras minusculas y sin acentos</p>
+      <div>
+        <button class="botonL" id="encriptar">Encriptar</button>
+        <button class="botonL" id="desencriptar">Desencriptar</button>
+      </div>
+    </div>
+    <div class="blockCard">
+      <div id="card">
+        <img src="./img/Muñeco.png" alt="Esperando" id="imgM" />
+        <h3>Ningún mensaje fue encontrado</h3>
+        <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+      </div>
+      <div id="blockText">
+        <textarea name="textarea" id="texto" cols="30" rows="10"></textarea>
+        <div>
+          <button id="copiar">Copiar</button>
+        </div>
+      </div>
+    </div>
+    <div class="blockFooter">
+      <p>Andres Cifuentes</p>
+    </div>
+    <script src="./logica.js"></script>
+  </body>
+</html>
+
